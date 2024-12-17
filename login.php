@@ -23,13 +23,13 @@
             <div class="form-body">
                 <h2 class="title">Log In</h2>
                 
-                <form action="" class="the-form">
+                <form action="login.php" class = "the-form" method = "POST">
 
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                    <input type="email" name="email" id="email" placeholder="Enter your email"required>
 
                     <label for="password">Password</label>
-                    <input type="password" name="password" id="password" placeholder="Enter your password">
+                    <input type="password" name="password" id="password" placeholder="Enter your password"required>
 
                     <input type="submit" value="Log In">
 
