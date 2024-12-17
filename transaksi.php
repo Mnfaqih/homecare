@@ -76,55 +76,39 @@
         height: 30px;
       }
 
-      
+      /* Hero Section */
       .hero-section {
         position: relative;
         display: flex;
-        justify-content: flex-end; 
-        align-items: center; 
-        background-image: url("assets/background.jpg"); 
-        background-size: cover;
-        background-position: center;
-        height: 100vh; 
-        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 100vh;
       }
 
       .hero-section .content {
-        position: relative;
-        color: #ffffff; 
-        max-width: 400px;
-        text-align: left;
-        padding: 20px;
-        margin-right: 50px; 
-        margin-bottom: 10px;
-      }
-
-      .hero-section .content h2 {
-        font-size: 24px;
-        margin-bottom: 10px;
-        color: #1e3a8a; 
+        color: #1e3a8a;
         font-weight: bold;
-      }
-
-      .hero-section .content p {
-        font-size: 14px;
         margin-bottom: 20px;
-        line-height: 1.5;
-        color: #ffffff;
       }
 
-      .hero-section .content button {
+      .hero-section img {
+        margin: 20px 0;
+        width: 300px; 
+      }
+
+      .hero-section button {
         background-color: #1e3a8a;
         color: #ffffff;
         border: none;
         padding: 10px 20px;
         border-radius: 5px;
         cursor: pointer;
-        font-size: 14px;
+        font-size: 16px;
         transition: background-color 0.3s;
       }
 
-      .hero-section .content button:hover {
+      .hero-section button:hover {
         background-color: #3b82f6;
       }
 
@@ -149,7 +133,7 @@
       <!-- Navbar -->
       <header>
         <div class="logo">
-          <img src="Sapu.svg" alt="icon-description" class="icon" />
+          <img src="sourcegbr" alt="icon-description" class="icon" />
           <strong>Home Care</strong>
         </div>
         <nav>
@@ -161,23 +145,27 @@
           <a href="#">Car/Bike Wash</a>
         </nav>
         <div class="profile-icon">
-          <img src="user.svg" alt="icon-description" class="icon" />
+          <img src="sourcegbr" alt="icon-description" class="icon" />
         </div>
       </header>
 
       <!-- Hero Section -->
       <main>
         <div class="hero-section">
-          <div class="content">
-            <h2>Meal Prep</h2>
-            <p>
-              Layanan meal prep profesional yang menawarkan berbagai pilihan
-              sesuai kebutuhan, mulai dari menu sehat harian, makanan diet,
-              hingga kebutuhan keluarga. Dilengkapi informasi harga, porsi, dan
-              jadwal pengiriman untuk memudahkan Anda menikmati hidangan lezat
-              dan bergizi.
-            </p>
-            <button>Pesan</button>
+          <div>
+            <h2 style="color: #1e3a8a; font-weight: bold;">
+              TERIMA KASIH TELAH MENGGUNAKAN JASA KAMI!
+            </h2>
+            <img
+              src="assets/bg_transaksi.png"
+              alt="family illustration"
+              class="icon-image"
+            />
+            <div>
+              <button onclick="window.location.href='mealprep.php';">
+                SELESAI
+              </button>
+            </div>
           </div>
         </div>
       </main>
