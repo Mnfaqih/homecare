@@ -39,7 +39,7 @@
 
             <div class="form-footer">
                 <div>
-                    <span>Have an account?</span> <a href="">Log In</a>
+                    <span>Already have an account?</span> <a href="login.php">Log In</a>
                 </div>
             </div>
 

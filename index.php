@@ -70,7 +70,7 @@
             </div>
             <div class="buttons">
               <button class="contact-btn">Contact Us</button>
-              <button class="signup-btn">Sign Up</button>
+              <button class="signup.php">Sign Up</button>
             </div>
           </div>
         </div>
